@@ -1,0 +1,23 @@
+.projects h2 {
+  text-align: center;
+  color: #2cebb1;
+}
+
+.project {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 70px;
+  border: 1px solid rgba(135, 133, 133, 0.4);
+  border-radius: 4px;
+}
+
+.image img {
+  margin: 20px 20px 0 20px;
+  width: 500px;
+  position: sticky;
+  top: 70px;
+}
+
+.text {
+  margin: 0 20px 0 20px;
+}
