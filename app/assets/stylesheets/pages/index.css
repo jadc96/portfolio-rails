@@ -7,3 +7,32 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
 }
+
+
+a {
+  text-decoration: none;
+  color: #2cebb1;
+}
+
+p {
+  color: #bcc5e1;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+li {
+  color: #bcc5e1;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #CCD6F6;
+}
+
+.container {
+  margin: 35px 100px;
+}
+
+img {
+  border-radius: 4px;
+}
