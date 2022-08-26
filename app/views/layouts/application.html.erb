@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Jacques-Antoine de Cugnac</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= favicon_link_tag asset_path('ja-favicon.png') %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,6 +14,8 @@
 
   <body>
     <%= render "shared/navbar" %>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
