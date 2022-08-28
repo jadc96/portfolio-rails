@@ -1,4 +1,49 @@
-.contact p {
-  text-decoration: none;
-  color: #CCD6F6;
+.contact-page {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.icons {
+  min-width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-regular, .fa-brands {
+  font-size: 50px;
+  color: #2cebb1;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  width: 235px;
+  background-color: rgb(33 60 103);
+  color: #bcc5e1;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 5px 10px;
+}
+
+textarea {
+  width: 409px;
+  height: 205px;
+}
+
+button {
+  background-color: #bcc5e1;
+  color: rgb(33 60 103);
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px 4px 10px;
 }
