@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/projects/claps", to: "pages#claps"
   get "/skills", to: "pages#skills"
   get "/contact", to: "pages#contact"
+  get "/thanks", to: "pages#thanks"
 end

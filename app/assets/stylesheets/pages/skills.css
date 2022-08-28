@@ -1,0 +1,11 @@
+.skills {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
